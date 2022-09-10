@@ -42,9 +42,9 @@ public class Tootle.Widgets.RelationshipButton : Button {
 			// icon_name = "changes-allow-symbolic";
 			fn = () => {
 				if (rs.domain_blocking)
-					activate_action ("domain_blocking", null);
+					activate_action_variant ("domain_blocking", null);
 				else if (rs.blocking)
-					activate_action ("view.blocking", null);
+					activate_action_variant ("view.blocking", null);
 				return true;
 			};
 			add_css_class ("destructive-action");
