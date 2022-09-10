@@ -1,3 +1,7 @@
+.sidebar {
+  background: @view_bg_color;
+}
+
 .sidebar .badge {
   padding: 2px 12px;
   border-radius: 999px;
